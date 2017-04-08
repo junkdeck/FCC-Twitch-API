@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,400');
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height:100%;
+    background:#f5e0d4;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+h3{
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    font-size: 1.738em;
+    margin: .45em;
+}
+h4{
+    font-family: Work Sans, sans-serif;
+    font-weight: 200;
+    font-size: 1.448em;
+    margin: .45em;
+}
+.channel-logo{
+    /*display:block;*/
+    height:100px;
+    border-radius:50%;
+    border-color: #66225c !important;
+    border: solid 6px;
+}
+.wrapper{
+    height:100%;
+    width:75%;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background:#f4a87c;
+}
+.card{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    background: #d53d3d;
+    border-radius: 5px;
+    box-shadow: 2px 2px #b12525,
+                4px 4px #b12525,
+                6px 6px #b12525;
+    height:8em;
+    width:42em;
+
+    padding:10px;
+    margin:20px;
+}
+.online{
+    background: #57bb53;
+    box-shadow: 2px 2px #3a9c36,
+                4px 4px #3a9c36,
+                6px 6px #3a9c36;
+}
+.deleted{
+    width: 30em;
+    height: 5em;
+    background:#f9b5ba;
+    box-shadow: 2px 2px #c3767c,
+                4px 4px #c3767c,
+                6px 6px #c3767c;
+
+    justify-content: center;
+    align-items: center;
+}
